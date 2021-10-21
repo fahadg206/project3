@@ -1,0 +1,81 @@
+ .nav {
+	background-color: #262626;
+	margin-top: -8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+ .nav img {
+	width: 5%;
+	
+	border-radius: 75%;
+	padding: 15px;
+}
+
+.nav a {
+	font-size: 11px;
+}
+
+.text {
+	font-size: 11px;
+}
+
+.date {
+	font-size: 11px;
+}
+
+
+
+.first {
+	background-color: #262626;
+	width: 60%;
+	text-align: center;
+	
+}
+
+.first .firstimg {
+	width: 40%;
+	border-radius: 75%;
+
+}
+
+.first .secondimg {
+	width: 40%;
+	border-radius: 20%;
+}
+
+
+.google {
+	width: 50%;
+	
+}
+
+.images {
+ background-color: white;
+}
+
+.posts {
+	background-color: white;
+	
+}
+
+
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+     {
+
+     * {
+     	padding: 0;
+     }
+
+     .nav {
+     	background-color: grey;
+     }
+
+    
+}
